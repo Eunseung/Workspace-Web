@@ -15,7 +15,9 @@ $(document).ready(function() {
     var c = Shape.Circle( 200, 200, 80 );
     c.fillColor = 'black';
     var text = new PointText(200,200);
-    text.justification = 'center'; text.fillColor = 'white'; text.fontSize = 20;
+    text.justification = 'center'; 
+    text.fillColor = 'white'; 
+    text.fontSize = 20;
     text.center = 'Hello, world~!';
 
     tool.onMouseDown = function(event) {
@@ -23,5 +25,5 @@ $(document).ready(function() {
         c.fillColor = 'green';
     };
     paper.view.draw();
-    console.log('jquery - main.js loaded');
+    HTMLFormControlsconsole.log('jquery - main.js loaded');
 });
