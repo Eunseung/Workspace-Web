@@ -1,0 +1,11 @@
+body {
+    margin: 0; padding: 0; 
+
+    color: black;
+}
+
+
+     a { text-decoration: none;
+        color black;}
+    hr {     border: 0.5px solid black;
+    }
