@@ -1,7 +1,12 @@
 body {
-    margin: 0; padding: 0; 
+    margin :0;
+     padding: 0; 
 
     color: black;
+}
+
+.effect1 , .effect2{ margin : 18px;
+
 }
 
 
